@@ -1,0 +1,13 @@
+.navContainer{
+    background-color: #F4F4F4;
+
+    width: 300px;
+    height: 750px;
+
+}
+.navContainerSmaller{
+    display: flex;
+    flex-direction: column;
+
+    margin: 10%;
+}

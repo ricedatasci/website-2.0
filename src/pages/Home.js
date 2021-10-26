@@ -1,9 +1,18 @@
 import React from 'react'
+import NavBar from "../components/NavBar.js"
+import "../styles/general.css"
 
 const Home = () => {
+    
     return (
-        <div>
-            Filler Text
+        <div className="layout">
+            <div className="stick">
+                <NavBar/>
+            </div>
+            
+            content
+            more content
+
         </div>
     )
 }

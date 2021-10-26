@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   const routes = [
     {
-      path: "/",
+      path: "",
       element: <Home />
     },
     {
