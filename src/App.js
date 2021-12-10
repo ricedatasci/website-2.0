@@ -17,7 +17,7 @@ function App() {
       element: <About />
     },
     {
-      path: "programs",
+      path: "/programs",
       element: <Program />
     },
     {

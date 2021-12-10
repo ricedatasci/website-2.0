@@ -1,7 +1,7 @@
 .navContainer{
     background-color: #F4F4F4;
 
-    width: 300px;
+    width: 350px;
     height: 750px;
 
 }
@@ -10,4 +10,12 @@
     flex-direction: column;
 
     margin: 10%;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 100px;
 }

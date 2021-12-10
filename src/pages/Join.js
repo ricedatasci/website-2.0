@@ -1,13 +1,14 @@
 import React from 'react'
-import NavBar from "../components/NavBar.js"
+import Layout from "../layouts/Layout.js"
 import "../styles/general.css"
 
 const Join = () => {
     return (
-        <div className="layout">
-            <NavBar/>
-            
-        </div>
+        <Layout>
+            <div>
+                join page
+            </div>
+        </Layout>
     )
 }
 

@@ -6,6 +6,7 @@ const NavBar = () => {
     const pages = [
         {title: "home", link: "/"},
         {title: "about", link: "/about"},
+        {title: "programs", link: "/programs"},
         {title: "join", link: "/join"}
     ]
     return (
@@ -13,11 +14,14 @@ const NavBar = () => {
             <div className="navContainerSmaller">
                 <h1>RICE DATA SCIENCE CLUB</h1>
                 <p>providing resources and skills to work with and understand data</p>
-                {pages.map((page) => {
-                    return (
-                        <NavBarLink title={page.title} link={page.link} />
-                    )
-                })}
+                <div className="navLinks">
+                    {pages.map((page) => {
+                        return (
+                            <NavBarLink title={page.title} link={page.link} />
+                        )
+                    })}
+                </div>
+                
             </div>
             
         </div>

@@ -1,0 +1,12 @@
+.link{
+    display:flex;
+    flex-direction: row;
+
+    width: 100px;
+
+}
+
+.linkText{
+    text-decoration: none;
+    color: black;
+}
