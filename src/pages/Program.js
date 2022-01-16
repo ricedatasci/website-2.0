@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from "../layouts/Layout.js"
-import "../styles/general.css"
+import "../styles/Program.css"
 
 const Program = () => {
     return (
         <Layout>
-            <div>
+            <div className="programContainer">
                 programs page
             </div>
         </Layout>

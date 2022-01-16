@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from "../layouts/Layout.js"
-import "../styles/general.css"
+import "../styles/Join.css"
 
 const Join = () => {
     return (
         <Layout>
-            <div>
-                join page
+            <div className="joinContainer">
+                
             </div>
         </Layout>
     )

@@ -1,0 +1,19 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1000px;
+}
+.slideShow{
+    /* adjust according to images */
+    width: 70%;
+    height: 55%;
+
+    margin-top: 5%;
+    background-color: blue;
+}
+
+.homeTitle{
+
+}
