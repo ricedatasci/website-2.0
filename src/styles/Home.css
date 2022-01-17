@@ -5,13 +5,34 @@
 
     width: 100%;
 }
-.slideShow{
-    /* adjust according to images */
-    width: 70%;
-    height: 55%;
+.firstSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+    width: 100%;
+    height: 400px;
+}
+.firstSectionBio{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.slideShowContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
     margin-top: 5%;
+}
+.slideShow {
     background-color: blue;
+    width: 70%;
+    height: 100%;
+    color: white;
 }
 
 .blurb{
