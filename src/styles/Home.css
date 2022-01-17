@@ -29,10 +29,14 @@
     margin-top: 5%;
 }
 .slideShow {
-    background-color: blue;
-    width: 70%;
+    /* background-color: blue; */
+    width: 80%;
     height: 100%;
     color: white;
+
+    /* only shows top */
+    /* border-radius: 20px;
+    border-style: solid; */
 }
 
 .blurb{

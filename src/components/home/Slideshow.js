@@ -6,6 +6,7 @@ import image2 from '../../media/welcome_back_image2.jpg';
 import image3 from '../../media/welcome_back_image1.jpg';
 import image4 from '../../media/how_to_image1.jpg';
 import image5 from '../../media/how_to_image2.jpg';
+import "../../styles/Home.css"
 
 // const fadeImages = [
 //   {
@@ -30,22 +31,16 @@ import image5 from '../../media/how_to_image2.jpg';
 //   }
 // ];
 
-// const fadeImages = [image1, image2, image3, image4, image5];
-const fadeImages = ['../../media/deep_image1.jpg',
-'../../media/welcome_back_image2.jpg',
-'../../media/welcome_back_image1.jpg',
-'../../media/how_to_image1.jpg',
-'../../media/how_to_image2.jpg',
-]
+const fadeImages = [image1, image2, image3, image4, image5];
 
 const SlideShow = () => {
   return (
     <div className="slide-container">
-      <Fade>
+      <Fade cssClass="slideShow">
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container">
-              <img src={fadeImage} style={{ "width": "50px", "height": "50px" }}/>
+              <img src={fadeImage} style={{ "width": "100%", "height": "100%" }}/>
             </div>
             <h2>{fadeImage.caption}</h2>
           </div>
