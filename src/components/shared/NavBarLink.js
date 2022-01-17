@@ -9,8 +9,10 @@ const NavBarLink = (props) => {
     return (
         <div className="link">
             {/* <FontAwesomeIcon icon="chevron-right" /> */}
-            <FaAngleRight />
-            <Link className="linkText" to={props.link}>{props.title}</Link>
+            {/* <FaAngleRight /> */}
+            <Link className="linkText" to={props.link}>
+                <h4>{props.title}</h4>
+            </Link>
         </div>
     )
 }

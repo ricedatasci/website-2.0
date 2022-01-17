@@ -1,23 +1,24 @@
 .navContainer{
     background-color: #F4F4F4;
 
-    width: 400px;
-    height: 750px;
+    width: 100%;
+    height: 90px;
 
 }
 .navContainerSmaller{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
-    margin: 10%;
 }
 
 .navLinks{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
 
-    height: 100px;
+    /* height: 100px; */
 }
 .navBlurb{
     color: grey;
