@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../layouts/Layout.js"
 import Header from "../components/shared/Header.js"
 import Blurb from "../components/shared/Blurb.js"
+import Slideshow from "../components/home/Slideshow"
 import "../styles/general.css"
 import "../styles/Home.css"
 
@@ -16,7 +17,7 @@ const Home = () => {
             <div className="homeContainer">
                 {/* insert slideshow */}
                 <div className="slideShow"> 
-                    slideshow
+                    <Slideshow />
                 </div>
                 <Header title={welcomeHeader} />
                 <Blurb description={aboutBlurb} horizontalPadding={5}/>
