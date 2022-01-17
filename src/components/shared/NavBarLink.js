@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from "react-router-dom"
-import "../styles/NavBarLink.css"
+import "../../styles/NavBarLink.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { FaAngleRight } from "react-icons/fa"
 

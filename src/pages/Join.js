@@ -6,7 +6,7 @@ const Join = () => {
     return (
         <Layout>
             <div className="joinContainer">
-                
+                join page
             </div>
         </Layout>
     )

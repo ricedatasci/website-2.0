@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from "../components/NavBar.js"
-import Footer from "../components/Footer.js"
+import NavBar from "../components/shared/NavBar.js"
+import Footer from "../components/shared/Footer.js"
 import "../styles/general.css"
 
 const Layout = ({children}) => {
