@@ -1,12 +1,13 @@
 import React from 'react';
-import Card from '../../components/shared/Card';
+import Card from '../shared/Card';
 
-const Officer = () => {
+const Officer = (props) => {
   return (
     <>
-      <Card>
-        <h2>Officer Name</h2>
-      </Card>
+      <h1>{props.name}</h1>
+      <img src={props.imgURL} />
+      <h3>{props.position}</h3>
+      <p>{props.description}</p>
     </>
   );
 };

@@ -3,8 +3,9 @@ import Layout from '../layouts/Layout.js';
 import Header from '../components/shared/Header.js';
 import Blurb from '../components/shared/Blurb.js';
 import Card from '../components/shared/Card.js';
-import '../styles/About.css';
-
+import Officer from '../components/about/Officer.js';
+import classes from '../styles/About.module.css';
+import Officers from '../components/about/Officers.js';
 const About = () => {
   const topTitle = 'about Rice DataSci';
   const aboutBlurb =
@@ -15,15 +16,29 @@ const About = () => {
 
   return (
     <Layout>
-      <div className='aboutContainer'>
+      <Officers />
+      {/* <div className={classes.aboutContainer}>
         <Header title={topTitle} />
         <Blurb description={aboutBlurb} />
         <Blurb description={officialChapterBlurb} />
         <Blurb description='For more information:' />
+      </div> */}
+      {/* <div className={classes.officerContainer}>
         <Card>
-          <p>Test to see if card styling is working</p>
+          <Officer
+            name='Daniel Cufino'
+            position='Web Designer'
+            description='My name is Daniel Cufino and I am filling this infromation with random text so that it looks substantive.'
+          />
         </Card>
-      </div>
+        <Card>
+          <Officer
+            name='Daniel Cufino'
+            position='Web Designer'
+            description='My name is Daniel Cufino and I am filling this infromation with random text so that it looks substantive.'
+          />
+        </Card>
+      </div> */}
     </Layout>
   );
 };
