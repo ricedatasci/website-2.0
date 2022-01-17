@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className="navContainer">
             <div className="navContainerSmaller">
                 <h1>RICE DATA SCIENCE CLUB</h1>
-                <p className="navBlurb">providing resources and skills to work with and understand data</p>
+                {/* <p className="navBlurb">providing resources and skills to work with and understand data</p> */}
                 <div className="navLinks">
                     {pages.map((page) => {
                         return (
