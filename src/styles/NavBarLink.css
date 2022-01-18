@@ -3,10 +3,23 @@
     flex-direction: row;
 
     width: 100px;
+    /* height: 90px; */
+
+    color: #8FA4B3;
+
+    text-decoration: none;
+
+    display:flex;
+    justify-content: center;
+
+    font-size: large;
 
 }
 
-.linkText{
-    text-decoration: none;
-    color: black;
+.link:hover{
+    background-color: #C7DDED;
+    color: white;
+    cursor: pointer;
+
+    /* font-size: larger; */
 }

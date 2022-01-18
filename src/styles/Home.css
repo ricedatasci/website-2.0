@@ -4,6 +4,8 @@
     align-items: center;
 
     width: 100%;
+
+    background-color: #C7DDED;
 }
 .firstSection{
     display: flex;
@@ -29,7 +31,7 @@
     margin-top: 5%;
 }
 .slideShow {
-    /* background-color: blue; */
+
     width: 80%;
     height: 100%;
     color: white;
