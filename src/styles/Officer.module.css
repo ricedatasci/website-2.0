@@ -1,0 +1,22 @@
+.officer {
+  display: flex;
+  flex-direction: column;
+  max-width: 21%;
+  padding-right: 2%;
+  padding-left: 2%;
+  text-align: center;
+}
+.officer h1 {
+  color: #8da4b4;
+}
+.officer p {
+  text-align: center;
+  color: #8da4b4;
+}
+.officer h3 {
+  color: #c4dceb;
+}
+.officer img {
+  border-radius: 100%;
+  width: 70%;
+}
