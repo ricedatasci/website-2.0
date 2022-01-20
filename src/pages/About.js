@@ -1,8 +1,5 @@
 import React from 'react';
 import Layout from '../layouts/Layout.js';
-import Header from '../components/shared/Header.js';
-import Blurb from '../components/shared/Blurb.js';
-import Card from '../components/shared/Card.js';
 
 import Officers from '../components/about/Officers.js';
 const About = () => {
@@ -18,28 +15,6 @@ const About = () => {
       {/* <div>{aboutBlurb}</div>
       <div>{officialChapterBlurb}</div> */}
       <Officers />
-      {/* <div className={classes.aboutContainer}>
-        <Header title={topTitle} />
-        <Blurb description={aboutBlurb} />
-        <Blurb description={officialChapterBlurb} />
-        <Blurb description='For more information:' />
-      </div> */}
-      {/* <div className={classes.officerContainer}>
-        <Card>
-          <Officer
-            name='Daniel Cufino'
-            position='Web Designer'
-            description='My name is Daniel Cufino and I am filling this infromation with random text so that it looks substantive.'
-          />
-        </Card>
-        <Card>
-          <Officer
-            name='Daniel Cufino'
-            position='Web Designer'
-            description='My name is Daniel Cufino and I am filling this infromation with random text so that it looks substantive.'
-          />
-        </Card>
-      </div> */}
     </Layout>
   );
 };

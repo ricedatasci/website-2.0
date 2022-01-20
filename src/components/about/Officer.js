@@ -4,7 +4,7 @@ const Officer = (props) => {
   return (
     <li className={classes.officer}>
       <h1>{props.name}</h1>
-      <img src={props.imgURL} />
+      <img src={props.imgURL} alt='placeholder' />
       <h3>{props.position}</h3>
       <p>{props.description}</p>
     </li>
