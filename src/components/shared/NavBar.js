@@ -7,7 +7,7 @@ import logo from "../../media/long_facebook.png"
 const NavBar = () => {
     const pages = [
         {title: "home", link: "/"},
-        {title: "about", link: "/about"},
+        {title: "team", link: "/team"},
         {title: "programs", link: "/programs"},
         {title: "join", link: "/join"}
     ]

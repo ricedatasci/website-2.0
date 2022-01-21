@@ -24,8 +24,8 @@ const Home = () => {
                         <Header titleBold={headlineBold} title={headline} bold={true} boldedText={headlineBold} 
                                 color="black" font="sans-serif"/>
                         <Blurb description={aboutBlurb} color="black" horizontalPadding={5}/>
-                        <Link to="/programs">
-                            <button>
+                        <Link className="eventsLinkContainer" to="/programs">
+                            <button className="eventsButton">
                                 check out events
                             </button>
                         </Link>
