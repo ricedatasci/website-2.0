@@ -36,7 +36,7 @@ const fadeImages = [image1, image2, image3, image4, image5];
 const SlideShow = () => {
   return (
     <div className="slide-container">
-      <Fade cssClass="slideShow">
+      <Fade cssClass="slideShow" arrows={false}>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container">

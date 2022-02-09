@@ -15,6 +15,8 @@ const Home = () => {
     const interestBlurb = "Check out some of our recent events, learn more about us, or join!"
     const aboutTitle = "About us"
     const aboutBlurbLong = "Rice Data Sci Club is an organization aiming to bolster the data science community at Rice University. We connect interested students with experienced mentors and provide career preparation, allowing future data scientists to explore more about the field and potential opportunities. Our goal is to create a coherent and interdisciplinary community for Data Science at Rice through academic and social events, and by collaborating with other university organizations such as the d2k lab."
+    const eventsTitle = "Upcoming Events"
+    
     return (
         <Layout>
             <div className="homeContainer">
@@ -38,6 +40,7 @@ const Home = () => {
                     </div>
                 </div>
 
+                {/* about section */}
                 <div className="aboutSection">
                     <div className="aboutSectionSlideShowContainer"> 
                         slideshow here
@@ -47,6 +50,15 @@ const Home = () => {
                         <Blurb description={aboutBlurbLong} color="black"/>
                     </div>
                 </div>
+
+                {/* upcoming events section */}
+                <div className="upcomingEventsSection">
+
+
+                </div>
+
+
+
             </div>
         </Layout>
 
